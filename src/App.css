@@ -1,0 +1,17 @@
+body::-webkit-scrollbar {
+  display: none;
+  animation: scrollbar-hide 1s ease 500ms;
+}
+
+@keyframes scrollbar-hide {
+  0% {
+    display: block;
+  }
+  100% {
+    display: none;
+  }
+}
+* {
+  transition-property: all;
+  transition-duration: 0.5s;
+}
